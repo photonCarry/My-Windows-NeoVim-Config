@@ -19,6 +19,7 @@ set cmdheight=0
 set undofile
 " 只有一个全局的 status line，而不是每一个 window 一个
 set laststatus=3
+set ts=4
 " 当打开文件的时候，自动进入到上一次编辑的位置
 lua vim.api.nvim_create_autocmd( "BufReadPost", { command = [[if line("'\"") > 1 && line("'\"") <= line("$") | execute "normal! g`\"" | endif]] })
 " 当文件被其他编辑器修改时，自动加载
