@@ -12,6 +12,8 @@
 
 - `lua\usr\which-key.lua`中注释掉`<tab>`的映射，否则按下`Ctrl+i`时会自动触发`<TAB>`键的功能。
 
+- `vim\coc.vim`中注释掉`w`和`b`的映射，否则`w`和`b`无法正确响应前导数字。
+
 ## 安装过程
 
 参考文档[Windows系统下neovim的安装和简易配置](https://zhuanlan.zhihu.com/p/432823659)
