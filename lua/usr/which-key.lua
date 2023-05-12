@@ -69,8 +69,10 @@ wk.register({
     },
     b = {
       name = "+buffer",
-      c = { "<cmd>BDelete hidden<cr>", "close invisible buffers" },
+      -- c = { "<cmd>BDelete hidden<cr>", "close invisible buffers" },
       d = { "<cmd>bdelete %<cr>", "close current buffers" },
+      l = { "<cmd>BufferLineCloseLeft<cr>", "close buffers to left" },
+      r = { "<cmd>BufferLineCloseRight<cr>", "close buffers to right" },
     },
     f = {
       name = "+file",
