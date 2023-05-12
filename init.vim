@@ -85,3 +85,6 @@ noremap <Space>bc :BDelete hidden<cr>
 
 " 因为 nvim-treesitter-textobjects 使用 x 来跳转，原始的 x 被映射为 xx
 nn xx x
+
+" 背景色透明
+"  hi Normal guibg=NONE ctermbg=NONE
