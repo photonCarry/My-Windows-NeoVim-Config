@@ -39,11 +39,10 @@ require('telescope').load_extension('neoclip')
 
 -- 改一下telescope-coc的lua代码，下面几句可以调整显示的result宽度
 -- local displayer = entry_display.create({
---   separator = ' ',
+--   separator = ' | ',
 --   items = {
---     { width = 8 },
---     { width = 80 },
---     { width = 120 },
+--     { width = nil },
+--     { width = nil },
 --     { remaining = true },
 --   },
 -- })
