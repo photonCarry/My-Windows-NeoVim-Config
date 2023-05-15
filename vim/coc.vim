@@ -127,3 +127,6 @@ endfor
 " 方便在中文中使用 w 和 b 移动
 "  nmap <silent> w <Plug>(coc-ci-w)
 "  nmap <silent> b <Plug>(coc-ci-b)
+
+" go自动补全
+autocmd BufWritePre *.go :silent call CocAction('runCommand', 'editor.action.organizeImport')
