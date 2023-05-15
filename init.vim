@@ -88,3 +88,6 @@ nn xx x
 
 " 背景色透明
 "  hi Normal guibg=NONE ctermbg=NONE
+
+" vim-go
+let g:go_def_mapping_enabled = 0
