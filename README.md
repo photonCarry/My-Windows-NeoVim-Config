@@ -27,3 +27,7 @@
 ### powershell下的代理设置
 
 `$env:HTTPS_PROXY="http://127.0.0.1:8889"`
+
+### 添加tig到PATH
+
+展示git log需要用到tig，已经安装了Git的把git的usr\bin加到PATH。
