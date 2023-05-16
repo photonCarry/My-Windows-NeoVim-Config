@@ -54,12 +54,6 @@ require("packer").startup({
     use 'voldikss/vim-floaterm' -- 终端
     use 'akinsho/toggleterm.nvim' -- 性能好点，但是易用性差点
     use 'CRAG666/code_runner.nvim' -- 一键运行代码
-    -- markdown
-    use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install" }) -- 预览
-    -- 如果 markdown-preview.nvim 安装有问题，可以尝试
-    -- 进入到 ~/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim 中手动执行 cd app && npm install
-    use 'mzlogin/vim-markdown-toc' -- 自动目录生成
-    use 'dhruvasagar/vim-table-mode' -- 快速编辑 markdown 的表格
     use 'crispgm/telescope-heading.nvim' -- Telescope coc 没有 outline，所以只好使用这个
     use 'tpope/vim-markdown' -- markdown 语法高亮
     use 'xiyaowong/telescope-emoji.nvim' -- 使用 telescope 搜索 emoji 表情

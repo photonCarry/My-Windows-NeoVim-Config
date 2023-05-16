@@ -116,7 +116,6 @@ wk.register({
       s = { "<cmd>set spell!<cr>", "spell check" },
       w = { "<cmd>set wrap!<cr>", "wrap line" },
       h = { "<cmd>noh<cr>", "Stop the highlighting" },
-      m = { "<cmd>TableModeToggle<cr>", "markdown table edit mode" },
       t = { "<cmd>set nocursorline<cr> <cmd>TransparentEnable<cr>", "make background transparent" },
     },
     x = { "<cmd>FloatermNew ipython<cr>", "calculated" },

@@ -1,9 +1,3 @@
-" 在 markdown 中间编辑 table
-let g:table_mode_corner='|'
-
-" 默认 markdown preview 在切换到其他的 buffer 或者 vim
-" 失去焦点的时候会自动关闭 preview
-let g:mkdp_auto_close = 0
 " 书签选中之后自动关闭 quickfix window
 let g:bookmark_auto_close = 1
 
