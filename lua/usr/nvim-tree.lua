@@ -11,6 +11,7 @@ require("nvim-tree").setup({
     group_empty = true,
   },
   filesystem_watchers = { enable = false },
+  remove_keymaps = true
 })
 
 --
@@ -39,7 +40,7 @@ local function on_attach(bufnr)
 
 
   -- Default mappings not inserted as:
-  --  remove_keymaps = true
+  -- remove_keymaps = true
   --  OR
   --  view.mappings.custom_only = true
 
